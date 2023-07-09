@@ -2,7 +2,6 @@ package com.example.skypro.testdemo2_12;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -61,9 +60,8 @@ public class UniversityTest {
 
         List<Student> actual = new ArrayList<Student>();
         actual.add(student1);
-        actual.add(student1);
-        actual.add(student1);
-
+        actual.add(student2);
+        actual.add(student3);
         assertEquals(expected, actual);
     }
 }
